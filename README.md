@@ -95,9 +95,7 @@ it needs to.  You can change it by supplying custom `--settings`:
 
         % echo '{"name":"alfredo"}' | ./stream2es stdin --settings '
         {
-            "settings": {
-                "refresh_interval": "2m"
-            }
+            "refresh_interval": "2m"
         }'
 
 
